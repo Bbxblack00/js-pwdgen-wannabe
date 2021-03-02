@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Richiesta</title>
+    <style media="screen">
+
+    .titolo{
+      text-align: center;
+      color: red;
+    }
+
+    </style>
+  </head>
+  <body>
+
+
+    <h1 class="titolo">NOME COGNOME CITTÀ NUMERO</h1>
+    <h1 class="titolo" id="output">Lorem Ipsum</h1>
+
+    <script type="text/javascript">
+
+      var nome = prompt('inserisci il tuo nome : ');
+      var cognome = prompt('inserisci il tuo cognome : ');
+      var colore = prompt('inserisci il tuo colore preferito : ');
+      var numero = prompt('inserisci il tuo numero preferito : ');
+      document.getElementById('output').innerHTML = "Questo è quello che hai inserito : " + nome + cognome + colore + numero;
+
+    </script>
+
+  </body>
+</html>
